@@ -1,0 +1,47 @@
+.background {
+	width: 100vw;
+	height: 100vh;
+	color: white;
+	background: linear-gradient(-45deg, white);
+	background-size: 400% 400%;
+    
+}
+
+button.bar-buttons.bar-buttons-md.bar-button.bar-button-md.bar-button-default.bar-button-default-md.bar-button-menutoggle.bar-button-menutoggle-md {
+	overflow: hidden;
+	color: white;
+}
+
+button.back-button.bar-button.bar-button-md.back-button-md.bar-button-default.bar-button-default-md.show-back-button {
+	overflow: hidden;
+	color: white;
+}
+
+body {
+  background: linear-gradient(-45deg, black);
+	background-size: 400% 400%;
+}
+
+.title-home {
+    margin: 0;
+    width: 100%;
+    background-color: darkred;
+	text-align: center;
+    color: white;
+
+}
+
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+.toolbar-background.toolbar-background-md {
+    background-color: darkred;
+}
+
+.toolbar-title-md {
+    color: white;
+} 
+
