@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Livros - Open Libray</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<button ion-button secondary menuToggle>Livros - Open Libray</button>
+
+
+<ion-content padding>
+  <ion-list *ngFor="let livro of lista_livros">
+    <ion-item>
+      <h2>{{livro.details.tittle}}</h2>
+      <p>{{livro.details.subtitle}}</p>
+      <p>{{livro.details.authors}}</p>
+      <p>{{livro.details.publish_date}}</p>
+
+    </ion-item>
+  </ion-list>
+</ion-content>

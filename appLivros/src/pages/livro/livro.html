@@ -1,0 +1,43 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Livro</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list>
+        <ion-card>
+  
+            <ion-item>
+              <h2>{{livro.details.title}} </h2>
+              <h6>Editora: {{livro.details.publishers}}</h6>
+              <h5>Autor: {{livro.details.authors}}</h5>
+
+            </ion-item>          
+            <ion-card-content>
+                <img class="img-livro" src={{livro.thumbnail_url}}>
+                <p>{{livro.details.description}}</p>
+            </ion-card-content>
+          
+            <ion-row>
+              <ion-col>
+               
+              </ion-col>
+              <ion-col>
+                  <button (click)="goToAlterarLivro()" ion-button  small>
+                      <ion-icon name="ios-create-outline"></ion-icon>
+                      <div></div>
+                    </button>
+                <button  (click)="showConfirm()" ion-button  small>
+                 
+                  <ion-icon name="ios-trash-outline"></ion-icon>
+          
+                </button>
+              </ion-col>
+            </ion-row>
+          </ion-card>
+        </ion-list>
+
+</ion-content>
